@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+- A .git file is added to the directory
+- No commits are created initially
+- You need to do it if you want to track the version of files in a directory
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+- It is an intermediate area
+- It gives you more control over which files you want to commit to a repository
