@@ -8,3 +8,28 @@ How is the staging area different from the working directory and the repository?
 
 - It is an intermediate area
 - It gives you more control over which files you want to commit to a repository
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+- The staging area allows you to see exactly which changes you are about to commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+- Adding experimental features
+- Creating another version of your program for a different language
+- Branches would help by separating different independant lines of development to organise your work (context-switching)
+
+How do the diagrams help you visualize the branch structure?
+
+- By allwoing you to clearly see at which commit each new branch is created
+- It allows you to clearly see all of the branches in one place
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+- Automatic merging is faster the manual merging
+- However, manual merging allows developers to resolve conflicts between branches
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+- The result is a combination of the changes made in one branch and the changes made in the other branch
+
+- We represent it in the way we do as both branches dont join together to form a new branch, instead one branch merges into the other branch
